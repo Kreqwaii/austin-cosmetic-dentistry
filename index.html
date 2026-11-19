@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Austin Cosmetic Dentistry | Smile Design & Treatment Estimator</title>
+  <meta name="description" content="Bespoke cosmetic dentistry, porcelain veneers, Invisalign, dental implants, and interactive monthly payment estimator for Austin Cosmetic Dentistry in Downtown Austin, TX.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FAF8F4' stroke='%238E5B3E' stroke-width='2'/%3E%3Cpath d='M10.5 11.5c0-2.5 2-4 5.5-4s5.5 1.5 5.5 4c0 2.7-1.1 5.1-1.7 8.4-.4 2-1.2 4.1-2.2 4.1-.8 0-1.1-2.4-1.6-2.4s-.8 2.4-1.6 2.4c-1 0-1.8-2.1-2.2-4.1-.6-3.3-1.7-5.7-1.7-8.4z' fill='none' stroke='%238E5B3E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Austin Cosmetic Dentistry Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7.5 8.5c0-2.2 1.8-3.8 4.5-3.8s4.5 1.6 4.5 3.8c0 2.5-1 4.8-1.5 7.6-.3 1.7-1 3.4-1.8 3.4-.7 0-.9-2.1-1.2-2.1s-.5 2.1-1.2 2.1c-.8 0-1.5-1.7-1.8-3.4-.5-2.8-1.5-5.1-1.5-7.6z"/>
+            <path d="M12 2.2v1.3"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Austin Cosmetic Dentistry</span>
+          <span class="brand-sub">Downtown Austin, TX</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#estimator">Estimator</a>
+        <a href="#treatments">Treatments</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#visit">Hours &amp; Location</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+15124762336" class="header-phone">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span class="mono-num">(512) 476-2336</span>
+        </a>
+        <a href="#estimator" class="btn btn-primary btn-sm">Plan Your Smile</a>
+        <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle navigation menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="4" y1="7" x2="20" y2="7"/>
+            <line x1="4" y1="12" x2="20" y2="12"/>
+            <line x1="4" y1="17" x2="20" y2="17"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <div class="container mobile-menu-inner">
+        <a href="#estimator" class="mobile-link">Treatment &amp; Payment Estimator</a>
+        <a href="#treatments" class="mobile-link">Cosmetic Treatments</a>
+        <a href="#doctors" class="mobile-link">Meet Dr. Patel &amp; Dr. Bradford</a>
+        <a href="#visit" class="mobile-link">Downtown Studio &amp; Hours</a>
+        <div class="mobile-menu-cta">
+          <a href="tel:+15124762336" class="btn btn-outline">Call (512) 476-2336</a>
+          <a href="#estimator" class="btn btn-primary">Estimate Smile Plan</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">221 West 6th Street, Suite 940 · Downtown Austin, TX</p>
+          <h1 class="hero-title">Bespoke Smile Design in the Heart of Downtown Austin</h1>
+          <p class="hero-lead">
+            Dr. Tejas Patel and Dr. Bradford Picot bring over two decades of cosmetic and restorative precision to every porcelain veneer, Invisalign plan, and full smile makeover. Explore transparent investment ranges and monthly options before your consultation.
+          </p>
+          <div class="hero-actions">
+            <a href="#estimator" class="btn btn-primary">
+              <span>Launch Smile Estimator</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+            <a href="tel:+15124762336" class="btn btn-outline">Call (512) 476-2336</a>
+          </div>
+          <dl class="hero-stats">
+            <div class="hero-stat">
+              <dt>Clinical Heritage</dt>
+              <dd class="mono-num">20+ Years</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>Veneer Longevity</dt>
+              <dd class="mono-num">10-15+ Years</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>Virtual &amp; Suite 940</dt>
+              <dd class="mono-num">$0 Consult</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-showcase" aria-label="Downtown Austin Practice Overview">
+          <div class="showcase-card">
+            <div class="showcase-header">
+              <span class="showcase-tag">Austin Skyline Studio</span>
+              <span class="showcase-lang">Se habla español</span>
+            </div>
+            <div class="showcase-visual" aria-hidden="true">
+              <svg viewBox="0 0 360 190" fill="none" xmlns="http://www.w3.org/2000/svg" class="skyline-svg">
+                <rect x="0.5" y="0.5" width="359" height="189" rx="12" fill="#FAF8F4" stroke="#E6E0D6"/>
+                <path d="M24 156h312" stroke="#D7CFC2" stroke-width="1.6" stroke-linecap="round"/>
+                <rect x="44" y="96" width="32" height="60" rx="2" stroke="#B7AA98" stroke-width="1.6"/>
+                <rect x="86" y="70" width="40" height="86" rx="2" stroke="#B7AA98" stroke-width="1.6"/>
+                <path d="M138 156V46l18-14 18 14v110" stroke="#8E5B3E" stroke-width="1.6" stroke-linejoin="round"/>
+                <line x1="156" y1="32" x2="156" y2="20" stroke="#8E5B3E" stroke-width="1.6" stroke-linecap="round"/>
+                <rect x="186" y="62" width="44" height="94" rx="2" stroke="#1B1C1E" stroke-width="1.6"/>
+                <line x1="196" y1="78" x2="220" y2="78" stroke="#D7CFC2" stroke-width="1.6"/>
+                <line x1="196" y1="94" x2="220" y2="94" stroke="#D7CFC2" stroke-width="1.6"/>
+                <line x1="196" y1="110" x2="220" y2="110" stroke="#D7CFC2" stroke-width="1.6"/>
+                <rect x="242" y="84" width="36" height="72" rx="2" stroke="#B7AA98" stroke-width="1.6"/>
+                <rect x="288" y="106" width="28" height="50" rx="2" stroke="#B7AA98" stroke-width="1.6"/>
+                <circle cx="294" cy="46" r="14" stroke="#8E5B3E" stroke-width="1.6"/>
+                <path d="M148 112c0-7.5 3.5-11 8-11s8 3.5 8 11" stroke="#8E5B3E" stroke-width="1.6"/>
+              </svg>
+            </div>
+            <div class="showcase-details">
+              <div class="showcase-row">
+                <span class="showcase-label">Signature Technology</span>
+                <span class="showcase-val">iTero 3D &amp; CEREC Same-Day</span>
+              </div>
+              <div class="showcase-row">
+                <span class="showcase-label">Porcelain Craft</span>
+                <span class="showcase-val">2 to 3 Visits, Hand-Layered</span>
+              </div>
+              <div class="showcase-row">
+                <span class="showcase-label">Traveling Patients</span>
+                <span class="showcase-val">Dedicated Concierge Scheduling</span>
+              </div>
+            </div>
+            <div class="showcase-footer">
+              <a href="#visit" class="showcase-link">
+                <span>View Suite 940 Hours &amp; Directions</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="9 18 15 12 9 6"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="estimator-section" id="estimator" aria-labelledby="estimatorHeading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Transparent Investment Planning</p>
+          <h2 id="estimatorHeading" class="section-title">Cosmetic Treatment &amp; Monthly Payment Estimator</h2>
+          <p class="section-subtitle">
+            Select a cosmetic procedure, adjust your treatment scope, and compare full payment against monthly financing options tailored to Austin Cosmetic Dentistry clinical benchmarks.
+          </p>
+        </div>
+
+        <div class="estimator-layout">
+          <div class="estimator-controls card">
+            <div class="control-block">
+              <div class="control-head">
+                <span class="step-num mono-num">01</span>
+                <h3>Choose Your Procedure</h3>
+              </div>
+              <div class="treatment-selector" role="radiogroup" aria-label="Cosmetic treatment options">
+                <button type="button" class="treatment-option is-active" data-treatment="veneers" role="radio" aria-checked="true">
+                  <span class="opt-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7.5 8.5c0-2.2 1.8-3.8 4.5-3.8s4.5 1.6 4.5 3.8c0 2.5-1 4.8-1.5 7.6-.3 1.7-1 3.4-1.8 3.4-.7 0-.9-2.1-1.2-2.1s-.5 2.1-1.2 2.1c-.8 0-1.5-1.7-1.8-3.4-.5-2.8-1.5-5.1-1.5-7.6z"/>
+                    </svg>
+                  </span>
+                  <span class="opt-body">
+                    <span class="opt-title">Porcelain Veneers</span>
+                    <span class="opt-desc">Traditional or minimal-prep custom shells</span>
+                  </span>
+                  <span class="opt-rate mono-num">$1,500-$2,500/tooth</span>
+                </button>
+
+                <button type="button" class="treatment-option" data-treatment="invisalign" role="radio" aria-checked="false">
+                  <span class="opt-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 13c2.5-4 5.2-6 8-6s5.5 2 8 6"/>
+                      <path d="M5 16c2.2-2.2 4.5-3.3 7-3.3s4.8 1.1 7 3.3"/>
+                      <circle cx="9" cy="10.5" r="1"/>
+                      <circle cx="15" cy="10.5" r="1"/>
+                    </svg>
+                  </span>
+                  <span class="opt-body">
+                    <span class="opt-title">Invisalign Clear Aligners</span>
+                    <span class="opt-desc">Mapped with iTero 3D digital scan</span>
+                  </span>
+                  <span class="opt-rate mono-num">$3,800-$6,200</span>
+                </button>
+
+                <button type="button" class="treatment-option" data-treatment="whitening" role="radio" aria-checked="false">
+                  <span class="opt-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 3l1.8 4.2L18 9l-4.2 1.8L12 15l-1.8-4.2L6 9l4.2-1.8L12 3z"/>
+                      <path d="M5 18l1-2 1 2 2 1-2 1-1 2-1-2-2-1 2-1z"/>
+                    </svg>
+                  </span>
+                  <span class="opt-body">
+                    <span class="opt-title">Professional In-Office Whitening</span>
+                    <span class="opt-desc">Chairside clinical brightening &amp; trays</span>
+                  </span>
+                  <span class="opt-rate mono-num">$450-$850</span>
+                </button>
+
+                <button type="button" class="treatment-option" data-treatment="implants" role="radio" aria-checked="false">
+                  <span class="opt-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M8 6h8l-1 5H9L8 6z"/>
+                      <path d="M10 11v9l2 1.5 2-1.5v-9"/>
+                      <line x1="9.5" y1="14" x2="14.5" y2="14"/>
+                      <line x1="9.5" y1="17" x2="14.5" y2="17"/>
+                    </svg>
+                  </span>
+                  <span class="opt-body">
+                    <span class="opt-title">Dental Implants</span>
+                    <span class="opt-desc">Titanium post &amp; custom aesthetic crown</span>
+                  </span>
+                  <span class="opt-rate mono-num">$3,500-$5,200/unit</span>
+                </button>
+
+                <button type="button" class="treatment-option" data-treatment="consult" role="radio" aria-checked="false">
+                  <span class="opt-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="4" width="18" height="16" rx="2"/>
+                      <line x1="8" y1="9" x2="16" y2="9"/>
+                      <line x1="8" y1="13" x2="13" y2="13"/>
+                    </svg>
+                  </span>
+                  <span class="opt-body">
+                    <span class="opt-title">Smile Makeover Consultation</span>
+                    <span class="opt-desc">In-office Suite 940 or virtual evaluation</span>
+                  </span>
+                  <span class="opt-rate mono-num">Complimentary</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="control-block" id="veneerControls">
+              <div class="control-head-between">
+                <div class="control-head">
+                  <span class="step-num mono-num">02</span>
+                  <h3>Number of Porcelain Veneers</h3>
+                </div>
+                <span class="slider-badge mono-num" id="veneerCountReadout">8 Veneers</span>
+              </div>
+              <div class="slider-wrap">
+                <input type="range" id="veneerSlider" min="2" max="10" step="1" value="8" aria-label="Number of porcelain veneers from 2 to 10">
+                <div class="slider-ticks mono-num" aria-hidden="true">
+                  <span>2</span>
+                  <span>4</span>
+                  <span>6</span>
+                  <span>8</span>
+                  <span>10</span>
+                </div>
+              </div>
+              <div class="preset-pills">
+                <button type="button" class="preset-pill" data-veneers="4">4 Upper Front</button>
+                <button type="button" class="preset-pill is-active" data-veneers="8">8 Full Smile Standard</button>
+                <button type="button" class="preset-pill" data-veneers="10">10 Broad Arch Makeover</button>
+              </div>
+              <p class="control-note">
+                Most smile makeovers treat 8 to 10 upper front teeth visible in a full natural smile. Minimal-prep and no-prep porcelain options are evaluated during your digital smile design.
+              </p>
+            </div>
+
+            <div class="control-block" id="unitControls" hidden>
+              <div class="control-head-between">
+                <div class="control-head">
+                  <span class="step-num mono-num">02</span>
+                  <h3 id="unitHeading">Treatment Scope</h3>
+                </div>
+                <span class="slider-badge mono-num" id="unitReadout">1 Implant</span>
+              </div>
+              <div class="scope-pills" id="scopePills"></div>
+              <p class="control-note" id="scopeNote"></p>
+            </div>
+
+            <div class="control-block">
+              <div class="control-head">
+                <span class="step-num mono-num" id="paymentStepNum">03</span>
+                <h3>Select Payment Preference</h3>
+              </div>
+              <div class="payment-switcher" role="radiogroup" aria-label="Payment plan selection">
+                <button type="button" class="payment-btn" data-plan="full" role="radio" aria-checked="false">
+                  <span class="pay-label">Pay in Full</span>
+                  <span class="pay-sub">Single Investment</span>
+                </button>
+                <button type="button" class="payment-btn is-active" data-plan="12m" role="radio" aria-checked="true">
+                  <span class="pay-label">12-Month 0% APR</span>
+                  <span class="pay-sub">Interest-Free Option</span>
+                </button>
+                <button type="button" class="payment-btn" data-plan="24m" role="radio" aria-checked="false">
+                  <span class="pay-label">24-Month Plan</span>
+                  <span class="pay-sub">Extended Monthly</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="estimator-summary card">
+            <div class="summary-top">
+              <div class="summary-label-row">
+                <span class="summary-eyebrow">Personalized Smile Estimate</span>
+                <span class="summary-chip" id="summaryBadge">8 Porcelain Veneers</span>
+              </div>
+              <h3 class="summary-title" id="summaryTitle">Porcelain Veneers Smile Plan</h3>
+              <p class="summary-context" id="summaryContext">Custom handcrafted porcelain across 8 upper teeth, completed in 2 to 3 appointments.</p>
+            </div>
+
+            <div class="estimate-metrics">
+              <div class="metric-box metric-primary">
+                <span class="metric-label" id="primaryMetricLabel">Estimated Monthly Payment (12 Months, 0% APR)</span>
+                <div class="metric-value mono-num" id="monthlyRange">$1,000 - $1,667 / mo</div>
+              </div>
+              <div class="metric-grid">
+                <div class="metric-box">
+                  <span class="metric-label">Total Investment Range</span>
+                  <div class="metric-subval mono-num" id="totalRange">$12,000 - $20,000</div>
+                </div>
+                <div class="metric-box">
+                  <span class="metric-label">Austin Average Benchmark</span>
+                  <div class="metric-subval mono-num" id="avgBenchmark">$14,400 avg</div>
+                </div>
+              </div>
+            </div>
+
+            <ul class="summary-highlights" id="summaryHighlights">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Step 1: Free Consult &amp; Digital Smile Design</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Step 2: Custom Trial Temporaries to Preview Look</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Step 3: Permanent Porcelain Bonding with Warranty</span>
+              </li>
+            </ul>
+
+            <form class="consult-form" id="consultForm" novalidate>
+              <div class="form-head">
+                <h4>Request Consultation with This Estimate</h4>
+                <span class="form-dest mono-num">downtown@austincosmetic.com</span>
+              </div>
+
+              <div class="consult-type-row">
+                <label class="radio-chip">
+                  <input type="radio" name="visitType" value="In-Office (Suite 940)" checked>
+                  <span>In-Office (Suite 940)</span>
+                </label>
+                <label class="radio-chip">
+                  <input type="radio" name="visitType" value="Virtual Smile Consult">
+                  <span>Virtual Smile Consult</span>
+                </label>
+              </div>
+
+              <div class="form-fields">
+                <div class="field-group">
+                  <label for="patientName">Full Name</label>
+                  <input type="text" id="patientName" name="patientName" placeholder="Jordan Taylor" required>
+                </div>
+                <div class="field-group">
+                  <label for="patientContact">Email or Mobile Phone</label>
+                  <input type="text" id="patientContact" name="patientContact" placeholder="jordan@example.com or (512) 555-0148" required>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary btn-full">Send Consultation Request</button>
+                <div class="direct-links">
+                  <a href="tel:+15124762336" class="direct-link">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span>Call (512) 476-2336</span>
+                  </a>
+                  <a href="mailto:downtown@austincosmetic.com" class="direct-link" id="mailtoShortcut">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <span>Email Downtown Desk</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="form-feedback" id="formFeedback" role="status" aria-live="polite" hidden></div>
+            </form>
+
+            <p class="estimator-disclaimer">
+              Estimates reflect general Austin clinical fee ranges. Exact investment and third-party monthly financing terms are confirmed following your exam with Dr. Patel or Dr. Bradford.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="treatments-section" id="treatments" aria-labelledby="treatmentsHeading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Comprehensive &amp; Aesthetic Studio</p>
+          <h2 id="treatmentsHeading" class="section-title">Cosmetic &amp; Restorative Procedures Under One Roof</h2>
+          <p class="section-subtitle">
+            From minimal-prep porcelain artistry to single-visit CEREC crowns and iTero 3D Invisalign mapping, every treatment prioritizes facial harmony and long-term tooth health.
+          </p>
+        </div>
+
+        <div class="treatments-grid">
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7.5 8.5c0-2.2 1.8-3.8 4.5-3.8s4.5 1.6 4.5 3.8c0 2.5-1 4.8-1.5 7.6-.3 1.7-1 3.4-1.8 3.4-.7 0-.9-2.1-1.2-2.1s-.5 2.1-1.2 2.1c-.8 0-1.5-1.7-1.8-3.4-.5-2.8-1.5-5.1-1.5-7.6z"/>
+              </svg>
+            </div>
+            <h3>Porcelain &amp; Minimal-Prep Veneers</h3>
+            <p>Handcrafted porcelain shells that refine shade, shape, size, and symmetry in 2 to 3 visits. Includes traditional and ultra-conservative no-prep options.</p>
+            <div class="service-meta">
+              <span class="mono-num">2-3 Visits · 10-15+ Yrs</span>
+              <button type="button" class="text-action" data-jump-treatment="veneers">Estimate Cost</button>
+            </div>
+          </article>
+
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M8.5 14s1.5 2 3.5 2 3.5-2 3.5-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+            </div>
+            <h3>3-Step Smile Makeovers</h3>
+            <p>Tailored facial aesthetics combining Consult &amp; Smile Design, wearable trial temporaries, and final precision bonding. Virtual consults available nationwide.</p>
+            <div class="service-meta">
+              <span class="mono-num">Free Virtual or In-Office</span>
+              <button type="button" class="text-action" data-jump-treatment="consult">Book Design</button>
+            </div>
+          </article>
+
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 13c2.5-4 5.2-6 8-6s5.5 2 8 6"/>
+                <path d="M5 16c2.2-2.2 4.5-3.3 7-3.3s4.8 1.1 7 3.3"/>
+              </svg>
+            </div>
+            <h3>Invisalign Clear Aligners</h3>
+            <p>Discreet, removable aligners mapped with iTero 3D digital scanning so you can preview projected alignment before wearing your first tray.</p>
+            <div class="service-meta">
+              <span class="mono-num">iTero 3D Scan Preview</span>
+              <button type="button" class="text-action" data-jump-treatment="invisalign">Estimate Cost</button>
+            </div>
+          </article>
+
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 3 20 8 20 16 12 21 4 16 4 8 12 3"/>
+                <line x1="12" y1="21" x2="12" y2="12"/>
+                <line x1="20" y1="8" x2="12" y2="12"/>
+                <line x1="4" y1="8" x2="12" y2="12"/>
+              </svg>
+            </div>
+            <h3>CEREC Same-Day Crowns</h3>
+            <p>Skip temporary crowns and second appointments. Digital CEREC milling designs, crafts, and bonds your custom ceramic crown in a single visit.</p>
+            <div class="service-meta">
+              <span class="mono-num">Single-Visit Milling</span>
+              <button type="button" class="text-action" data-jump-treatment="consult">Schedule Visit</button>
+            </div>
+          </article>
+
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 6h8l-1 5H9L8 6z"/>
+                <path d="M10 11v9l2 1.5 2-1.5v-9"/>
+              </svg>
+            </div>
+            <h3>Dental Implants</h3>
+            <p>Root-to-crown titanium tooth replacement engineered to preserve jawbone structure and blend seamlessly with adjacent natural teeth.</p>
+            <div class="service-meta">
+              <span class="mono-num">Single to Full Bridge</span>
+              <button type="button" class="text-action" data-jump-treatment="implants">Estimate Cost</button>
+            </div>
+          </article>
+
+          <article class="service-card card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3l1.8 4.2L18 9l-4.2 1.8L12 15l-1.8-4.2L6 9l4.2-1.8L12 3z"/>
+                <path d="M4 19h16"/>
+              </svg>
+            </div>
+            <h3>Whitening, Contouring &amp; Laser Lift</h3>
+            <p>Professional teeth whitening, gentle enamel shaping, and soft-tissue diode laser gum contouring to balance tooth proportions and brighten smiles.</p>
+            <div class="service-meta">
+              <span class="mono-num">Diode Laser Precision</span>
+              <button type="button" class="text-action" data-jump-treatment="whitening">Estimate Cost</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="doctors-section" id="doctors" aria-labelledby="doctorsHeading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Clinical Leadership</p>
+          <h2 id="doctorsHeading" class="section-title">Experienced Cosmetic &amp; Restorative Specialists</h2>
+          <p class="section-subtitle">
+            A tight-knit downtown Austin team dedicated to unhurried appointments, clear communication, and natural-looking aesthetic outcomes.
+          </p>
+        </div>
+
+        <div class="doctors-grid">
+          <article class="doctor-card card">
+            <div class="doctor-header">
+              <div class="doctor-monogram" aria-hidden="true">TP</div>
+              <div>
+                <h3 class="doctor-name">Dr. Tejas Patel, DDS</h3>
+                <p class="doctor-role">Cosmetic &amp; Restorative Dentist</p>
+              </div>
+            </div>
+            <p class="doctor-bio">
+              A 2002 graduate of the University of Texas Dental School, Dr. Patel has practiced cosmetic dentistry for over 20 years and completed thousands of porcelain veneer cases and full smile makeovers for Austin residents and traveling patients nationwide. Known widely for educating over 2 million followers on smile design.
+            </p>
+            <ul class="doctor-facts">
+              <li>UT Dental School Graduate (2002)</li>
+              <li>Thousands of Porcelain Veneer Cases</li>
+              <li>National Destination for Smile Makeovers</li>
+            </ul>
+          </article>
+
+          <article class="doctor-card card">
+            <div class="doctor-header">
+              <div class="doctor-monogram" aria-hidden="true">BP</div>
+              <div>
+                <h3 class="doctor-name">Dr. Bradford Picot, DDS</h3>
+                <p class="doctor-role">Cosmetic &amp; Comprehensive Dentist</p>
+              </div>
+            </div>
+            <p class="doctor-bio">
+              A Morehead-Cain Scholar with both business and dental degrees from UNC Chapel Hill, Dr. Picot brings two decades of experience in porcelain veneers, implants, and full-mouth rehabilitation. Voted a USA Top Dentist every year since 2010 and featured in Austin Way Men of Influence.
+            </p>
+            <ul class="doctor-facts">
+              <li>UNC Chapel Hill &amp; Pankey Institute</li>
+              <li>USA Top Dentist Peer Honoree Since 2010</li>
+              <li>Founder, UNC Malawi Dental Project (2004)</li>
+            </ul>
+          </article>
+
+          <article class="doctor-card card doctor-card-team">
+            <div class="doctor-header">
+              <div class="doctor-monogram" aria-hidden="true">JR</div>
+              <div>
+                <h3 class="doctor-name">Julie &amp; Studio Care Team</h3>
+                <p class="doctor-role">Cosmetic Dental Assistant &amp; Patient Concierge</p>
+              </div>
+            </div>
+            <p class="doctor-bio">
+              Julie works side-by-side with patients throughout every veneer and smile makeover visit, ensuring complete comfort inside our tranquil 9th-floor studio. Same-day emergency slots and bilingual care in English and Spanish keep every visit smooth.
+            </p>
+            <ul class="doctor-facts">
+              <li>Dedicated Chairside Comfort During Makeovers</li>
+              <li>Same-Day Emergency Appointments Available</li>
+              <li>Bilingual Care (Se Habla Español)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="visit" aria-labelledby="visitHeading">
+      <div class="container experience-grid">
+        <article class="testimonial-card card">
+          <div class="quote-mark" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 11H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v6c0 2.5-1.5 4.5-4 5"/>
+              <path d="M19 11h-4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v6c0 2.5-1.5 4.5-4 5"/>
+            </svg>
+          </div>
+          <p class="eyebrow">Verified Patient Experience</p>
+          <blockquote class="testimonial-quote">
+            Absolutely the best staff, experience, and smile I have ever had. This team made me feel so comfortable and excited about the idea of getting these veneers. Dr. Patel was extra patient and talked me through every part of the procedure. He will not settle; if he is not happy with the look of something, he will fix it immediately. I have received compliments literally everyday since getting them done.
+          </blockquote>
+          <footer class="testimonial-author">
+            <span class="author-name">Eboni Wilson</span>
+            <span class="author-detail">Porcelain Veneer Patient · Austin Cosmetic Dentistry</span>
+          </footer>
+        </article>
+
+        <aside class="location-card card" id="hours">
+          <p class="eyebrow">Downtown Studio</p>
+          <h2 id="visitHeading" class="location-title">Visit Suite 940 on West 6th Street</h2>
+
+          <div class="location-info">
+            <div class="info-item">
+              <span class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <div class="info-label">Address</div>
+                <div class="info-value">221 West 6th Street, Suite 940<br>Downtown, Austin, TX 78701</div>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="info-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <div>
+                <div class="info-label">Direct Phone &amp; Email</div>
+                <div class="info-value">
+                  <a href="tel:+15124762336" class="mono-num">+1 (512) 476-2336</a><br>
+                  <a href="mailto:downtown@austincosmetic.com">downtown@austincosmetic.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hours-table">
+            <div class="hours-heading">Office Hours</div>
+            <dl class="hours-list">
+              <div class="hours-row">
+                <dt>Monday</dt>
+                <dd class="mono-num">10:00 AM - 3:00 PM</dd>
+              </div>
+              <div class="hours-row">
+                <dt>Tuesday</dt>
+                <dd class="mono-num">8:00 AM - 5:00 PM</dd>
+              </div>
+              <div class="hours-row">
+                <dt>Wednesday</dt>
+                <dd class="mono-num">8:00 AM - 5:00 PM</dd>
+              </div>
+              <div class="hours-row">
+                <dt>Thursday</dt>
+                <dd class="mono-num">8:00 AM - 5:00 PM</dd>
+              </div>
+              <div class="hours-row">
+                <dt>Friday</dt>
+                <dd class="mono-num">10:00 AM - 2:00 PM</dd>
+              </div>
+              <div class="hours-row is-closed">
+                <dt>Saturday &amp; Sunday</dt>
+                <dd class="mono-num">Closed</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-name">Austin Cosmetic Dentistry</span>
+        <span class="footer-address">221 W 6th St, Suite 940, Austin, TX 78701 · (512) 476-2336</span>
+      </div>
+      <p class="footer-credit">Interactive consultation &amp; estimator preview prepared for Austin Cosmetic Dentistry</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
